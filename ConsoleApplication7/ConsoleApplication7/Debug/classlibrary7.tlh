@@ -1,0 +1,71 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.13.26132.0 (7b82e242).
+//
+// c:\users\jeekkee\source\repos\consoleapplication7\consoleapplication7\debug\classlibrary7.tlh
+//
+// C++ source equivalent of Win32 type library ClassLibrary7.tlb
+// compiler-generated file created 02/21/19 at 19:53:33 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace ClassLibrary7 {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("cd8a55a6-a6cf-47a1-8188-772739cceefa"))
+/* LIBID */ __ClassLibrary7;
+struct /* coclass */ Class1;
+struct __declspec(uuid("9373166a-06cc-3d59-a71e-a86733183c27"))
+/* dual interface */ _Class1;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(_Class1, __uuidof(_Class1));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("485b98af-53d4-4148-b2bd-cc3920bf0adf"))
+Class1;
+    // [ default ] interface _Class1
+    // interface _Object
+
+struct __declspec(uuid("9373166a-06cc-3d59-a71e-a86733183c27"))
+_Class1 : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_ToString (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+      virtual HRESULT __stdcall Equals (
+        /*[in]*/ VARIANT obj,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall GetHashCode (
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall GetType (
+        /*[out,retval]*/ struct _Type * * pRetVal ) = 0;
+      virtual HRESULT __stdcall GetDirectory (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+      virtual HRESULT __stdcall WriteFiles (
+        /*[in]*/ BSTR arg2,
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+};
+
+} // namespace ClassLibrary7
+
+#pragma pack(pop)

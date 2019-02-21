@@ -1,0 +1,7 @@
+c:\users\jeekkee\source\repos\ClassLibrary7\ClassLibrary7\bin\Debug\ClassLibrary7.dll
+c:\users\jeekkee\source\repos\ClassLibrary7\ClassLibrary7\bin\Debug\ClassLibrary7.pdb
+c:\users\jeekkee\source\repos\ClassLibrary7\ClassLibrary7\obj\Debug\ClassLibrary7.csprojResolveAssemblyReference.cache
+c:\users\jeekkee\source\repos\ClassLibrary7\ClassLibrary7\obj\Debug\ClassLibrary7.csproj.CoreCompileInputs.cache
+c:\users\jeekkee\source\repos\ClassLibrary7\ClassLibrary7\obj\Debug\ClassLibrary7.dll
+c:\users\jeekkee\source\repos\ClassLibrary7\ClassLibrary7\obj\Debug\ClassLibrary7.pdb
+c:\users\jeekkee\source\repos\ClassLibrary7\ClassLibrary7\bin\Debug\ClassLibrary7.tlb
